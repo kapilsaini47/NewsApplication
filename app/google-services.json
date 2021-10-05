@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893275385291",
+    "project_id": "login-sample-4e515",
+    "storage_bucket": "login-sample-4e515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893275385291:android:fc7dcdd2d34c6a6ebd1a4e",
+        "android_client_info": {
+          "package_name": "com.kapil.android.loginsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893275385291-2jhu7doep99164977mopobq15djugd94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPZOo1Wr-cUvq4WEEObX57k2lhhRTp7_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893275385291-2jhu7doep99164977mopobq15djugd94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
