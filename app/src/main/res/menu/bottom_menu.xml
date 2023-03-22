@@ -10,7 +10,7 @@
         android:title="@string/top_headlines"
         android:icon="@drawable/ic_action_article"/>
     <item
-        android:id="@+id/profileFragment"
-        android:icon="@drawable/ic_action_profile"
-        android:title="@string/profile" />
+        android:id="@+id/savedArticle"
+        android:icon="@drawable/ic_for_you"
+        android:title="@string/saved_headlines" />
 </menu>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">News</string>
+    <string name="app_name">Samachar</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="logout_button_text">LogOut</string>
     <string name="logIn">LogIn</string>
@@ -11,14 +11,6 @@
     <string name="profile">Profile</string>
     <string name="top_headlines">Top Headlines</string>
     <string name="author">author</string>
-    <string name="search">Search</string>
-    <string name="business">Business</string>
-    <string name="entertainment">Entertainment</string>
-    <string name="health">Health</string>
-    <string name="general">General</string>
-    <string name="sports">Sports</string>
-    <string name="science">Science</string>
-    <string name="technology">Technology</string>
     <string name="email">Email</string>
     <string name="number">Number</string>
     <string name="logout">LogOut</string>
@@ -27,5 +19,17 @@
     <string name="app_logo">App logo</string>
     <string name="name">Name</string>
     <string name="headings">Headings</string>
+    <string name="search">Search</string>
+    <string name="share_your_experience">Share your Experience</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="sports">Sports</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="technology">Technology</string>
+    <string name="science">Science</string>
+    <string name="saved_headlines">Saved Headlines</string>
+    <string name="add_to_favorites_button">Add to favorites button</string>
+    <string name="favorite_article_saving_button">Favorite article saving button</string>
 
 </resources>
