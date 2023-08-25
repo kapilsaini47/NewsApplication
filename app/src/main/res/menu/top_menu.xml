@@ -10,9 +10,9 @@
             app:actionViewClass="androidx.appcompat.widget.SearchView"
             app:showAsAction="ifRoom|collapseActionView" />
 
-        <item android:id="@+id/feedback" android:title="Feedback"
+        <item android:id="@+id/feedback" android:title="@string/feedback"
             app:showAsAction="collapseActionView"/>
-        <item android:id="@+id/policy" android:title="Policy"
+        <item android:id="@+id/policy" android:title="@string/policy"
             app:showAsAction="collapseActionView"/>
 
 </menu>

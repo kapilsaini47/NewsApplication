@@ -6,26 +6,21 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/savedArticle"
-        android:name="com.kapil.android.loginsample.ui.fragments.SavedArticles"
+        android:name="com.kapil.android.newsapp.ui.fragments.SavedArticles"
         android:label="fragment_saved_articles"
         tools:layout="@layout/fragment_saved_articles" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.kapil.android.loginsample.ui.fragments.Headlines"
+        android:name="com.kapil.android.newsapp.ui.fragments.Headlines"
         android:label="fragment_home"
         tools:layout="@layout/fragment_headlines" >
         <argument
             android:name="url"
             app:argType="string" />
-        <action
-            android:id="@+id/action_homeFragment_to_policy"
-            app:destination="@id/policy"
-            app:popUpTo="@id/homeFragment"
-            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/topHeadlines"
-        android:name="com.kapil.android.loginsample.ui.fragments.TopHeadlines"
+        android:name="com.kapil.android.newsapp.ui.fragments.TopHeadlines"
         android:label="fragment_top_headlines"
         tools:layout="@layout/fragment_top_headlines" >
         <argument
@@ -34,43 +29,38 @@
     </fragment>
 
     <fragment
-        android:id="@+id/policy"
-        android:name="com.kapil.android.loginsample.ui.fragments.Policy"
-        android:label="fragment_policy"
-        tools:layout="@layout/fragment_policy" />
-    <fragment
         android:id="@+id/general2"
-        android:name="com.kapil.android.loginsample.ui.tabs.General"
+        android:name="com.kapil.android.newsapp.ui.tabs.General"
         android:label="fragment_general"
         tools:layout="@layout/fragment_general" />
     <fragment
         android:id="@+id/sports2"
-        android:name="com.kapil.android.loginsample.ui.tabs.Sports"
+        android:name="com.kapil.android.newsapp.ui.tabs.Sports"
         android:label="fragment_sports"
         tools:layout="@layout/fragment_sports" />
     <fragment
         android:id="@+id/bussiness"
-        android:name="com.kapil.android.loginsample.ui.tabs.Business"
+        android:name="com.kapil.android.newsapp.ui.tabs.Business"
         android:label="fragment_bussiness"
         tools:layout="@layout/fragment_bussiness" />
     <fragment
         android:id="@+id/health2"
-        android:name="com.kapil.android.loginsample.ui.tabs.Health"
+        android:name="com.kapil.android.newsapp.ui.tabs.Health"
         android:label="fragment_health"
         tools:layout="@layout/fragment_health" />
     <fragment
         android:id="@+id/technology2"
-        android:name="com.kapil.android.loginsample.ui.tabs.Technology"
+        android:name="com.kapil.android.newsapp.ui.tabs.Technology"
         android:label="fragment_technology"
         tools:layout="@layout/fragment_technology" />
     <fragment
         android:id="@+id/science2"
-        android:name="com.kapil.android.loginsample.ui.tabs.Science"
+        android:name="com.kapil.android.newsapp.ui.tabs.Science"
         android:label="fragment_science"
         tools:layout="@layout/fragment_science" />
     <fragment
         android:id="@+id/entertainment2"
-        android:name="com.kapil.android.loginsample.ui.tabs.Entertainment"
+        android:name="com.kapil.android.newsapp.ui.tabs.Entertainment"
         android:label="fragment_entertainment"
         tools:layout="@layout/fragment_entertainment" />
 </navigation>

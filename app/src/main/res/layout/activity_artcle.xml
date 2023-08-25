@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ArticleActivity">
+    tools:context="com.kapil.android.newsapp.ui.activity.ArticleActivity">
 
     <WebView
         android:id="@+id/wvActivity"
@@ -21,8 +21,8 @@
         android:id="@+id/faButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
         android:contentDescription="@string/favorite_article_saving_button"
         android:soundEffectsEnabled="true"
         android:src="@drawable/ic_favorite_saved"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="collapseActionView"
+        />
+    <item android:id="@+id/full_article"
+        android:title="@string/view_original_web_page"
+        android:icon="@drawable/ic_web_page"
+        app:showAsAction="collapseActionView"
+        />
+    <item android:id="@+id/report"
+        android:title="@string/report_content"
+        android:icon="@drawable/ic_feedback"
+        app:showAsAction="collapseActionView"
+        />
+</menu>
